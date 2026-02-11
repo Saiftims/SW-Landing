@@ -35,6 +35,7 @@ const Navbar = () => {
     { href: "#howitworks", label: "How It Works", id: "howitworks" },
     { href: "#technology", label: "Technology", id: "technology" },
     { href: "https://docs.silentwitness.ai/", label: "API", external: true },
+    { href: "#contact", label: "Contact", id: "contact" },
   ];
 
   return (

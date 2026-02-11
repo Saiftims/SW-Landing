@@ -231,10 +231,10 @@ const ContactSection = () => {
                 </div>
                 <h4 className="text-white font-semibold text-sm mb-2">Email</h4>
                 <a 
-                  href="mailto:saif@silentwitness.ai" 
+                  href="mailto:contact@silentwitness.ai" 
                   className="text-white/40 text-sm hover:text-blue-400 transition-colors"
                 >
-                  saif@silentwitness.ai
+                  contact@silentwitness.ai
                 </a>
               </div>
             </div>

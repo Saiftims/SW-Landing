@@ -35,7 +35,7 @@ const Navbar = () => {
     { href: "#howitworks", label: "How It Works", id: "howitworks" },
     { href: "#technology", label: "Technology", id: "technology" },
     { href: "https://docs.silentwitness.ai/", label: "API", external: true },
-    { href: "#contact", label: "Contact", id: "contact" },
+    { href: "/contact", label: "Contact", external: false },
   ];
 
   return (
@@ -73,11 +73,19 @@ const Navbar = () => {
                 >
                   {link.label}
                 </Link>
-              ) : (
+              ) : link.id ? (
                 <Link
                   key={link.href}
                   href={link.href}
                   onClick={(e) => handleNavScroll(e, link.id!)}
+                  className="px-3.5 py-1.5 text-[13px] font-medium text-white/50 hover:text-white/90 rounded-md transition-colors duration-200"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
                   className="px-3.5 py-1.5 text-[13px] font-medium text-white/50 hover:text-white/90 rounded-md transition-colors duration-200"
                 >
                   {link.label}
@@ -149,11 +157,20 @@ const Navbar = () => {
                 >
                   {link.label}
                 </Link>
-              ) : (
+              ) : link.id ? (
                 <Link
                   key={link.href}
                   href={link.href}
                   onClick={(e) => handleNavScroll(e, link.id!)}
+                  className="block px-4 py-3 text-base font-medium text-white/70 hover:text-white hover:bg-white/5 rounded-xl transition-all"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setMobileMenuOpen(false)}
                   className="block px-4 py-3 text-base font-medium text-white/70 hover:text-white hover:bg-white/5 rounded-xl transition-all"
                 >
                   {link.label}

@@ -1,0 +1,17 @@
+<svg width="450" height="80" viewBox="0 0 450 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(5, 5)">
+    <!-- Eye outline -->
+    <ellipse cx="40" cy="35" rx="40" ry="25" stroke="#1A1A1A" stroke-width="6" fill="white"/>
+
+    <!-- Pupil and inner outline -->
+    <ellipse cx="40" cy="35" rx="22" ry="16" stroke="#1A1A1A" stroke-width="4" fill="white"/>
+    <circle cx="40" cy="35" r="6" fill="#1A1A1A"/>
+
+    <!-- Connection points -->
+    <circle cx="1" cy="35" r="5" fill="#1A1A1A"/>
+    <circle cx="79" cy="35" r="5" fill="#1A1A1A"/>
+
+    <!-- Text -->
+    <text x="100" y="45" font-family="Arial, sans-serif" font-weight="bold" font-size="34" fill="#1A1A1A">SILENTWITNESS</text>
+  </g>
+</svg>

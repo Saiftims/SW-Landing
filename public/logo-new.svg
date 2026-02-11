@@ -1,0 +1,16 @@
+<svg width="300" height="80" viewBox="0 0 300 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(10, 10)">
+    <!-- Eye outline -->
+    <path d="M45 20C45 20 36.25 35 22.5 35C8.75 35 0 20 0 20C0 20 8.75 5 22.5 5C36.25 5 45 20 45 20Z" stroke="#1A1A1A" stroke-width="4" fill="none"/>
+
+    <!-- Pupil -->
+    <circle cx="22.5" cy="20" r="7.5" fill="#1A1A1A"/>
+
+    <!-- Connection points -->
+    <circle cx="0" cy="20" r="3" fill="#1A1A1A"/>
+    <circle cx="45" cy="20" r="3" fill="#1A1A1A"/>
+
+    <!-- Text -->
+    <text x="60" y="30" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#1A1A1A">SILENTWITNESS</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Label 1 -->
+  <rect x="10" y="10" width="80" height="80" fill="#FF4444" rx="10" />
+  <text x="50" y="65" font-family="Arial" font-size="50" fill="white" text-anchor="middle">1</text>
+  
+  <!-- Label 2 -->
+  <rect x="110" y="10" width="80" height="80" fill="#44CC44" rx="10" />
+  <text x="150" y="65" font-family="Arial" font-size="50" fill="white" text-anchor="middle">2</text>
+  
+  <!-- Label 3 -->
+  <rect x="210" y="10" width="80" height="80" fill="#4444FF" rx="10" />
+  <text x="250" y="65" font-family="Arial" font-size="50" fill="white" text-anchor="middle">3</text>
+  
+  <!-- Label 4 -->
+  <rect x="310" y="10" width="80" height="80" fill="#CC44CC" rx="10" />
+  <text x="350" y="65" font-family="Arial" font-size="50" fill="white" text-anchor="middle">4</text>
+</svg> 

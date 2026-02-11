@@ -1,0 +1,45 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F8F9FA" rx="8" />
+  
+  <!-- Header -->
+  <rect x="40" y="30" width="720" height="60" fill="#E9ECEF" rx="6" />
+  <text x="60" y="65" font-family="Arial" font-size="18" fill="#333333" font-weight="bold">DOCUMENTS</text>
+  
+  <!-- Description -->
+  <text x="60" y="110" font-family="Arial" font-size="14" fill="#666666">
+    Upload accident documents to calculate Delta-V automatically. You can also enter or edit the impact details manually.
+  </text>
+  
+  <!-- Plaintiff Section -->
+  <text x="60" y="150" font-family="Arial" font-size="16" fill="#333333" font-weight="bold">
+    Upload the Plaintiff's documents
+  </text>
+  
+  <!-- Document upload boxes -->
+  <rect x="60" y="170" width="150" height="80" fill="#F1F3F5" stroke="#DEE2E6" rx="4" />
+  <text x="135" y="210" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">Vehicle Photos</text>
+  
+  <rect x="230" y="170" width="150" height="80" fill="#F1F3F5" stroke="#DEE2E6" rx="4" />
+  <text x="305" y="210" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">EDR Report.pdf</text>
+  
+  <rect x="400" y="170" width="150" height="80" fill="#F1F3F5" stroke="#DEE2E6" rx="4" />
+  <text x="475" y="210" font-family="Arial" font-size="12" fill="#333333" text-anchor="middle">Repair Estimates.pdf</text>
+  
+  <!-- Damage selection -->
+  <text x="60" y="280" font-family="Arial" font-size="14" fill="#333333">Primary Location of Damage</text>
+  <rect x="240" y="260" width="170" height="40" fill="#F1F3F5" stroke="#DEE2E6" rx="4" />
+  <text x="280" y="285" font-family="Arial" font-size="14" fill="#333333">Front</text>
+  
+  <!-- Vehicle damage visualization (left) -->
+  <circle cx="220" cy="380" r="120" fill="none" stroke="#DEE2E6" stroke-width="2" />
+  <circle cx="220" cy="380" r="90" fill="none" stroke="#DEE2E6" stroke-width="2" />
+  <circle cx="220" cy="380" r="60" fill="none" stroke="#DEE2E6" stroke-width="2" />
+  <circle cx="220" cy="380" r="30" fill="none" stroke="#DEE2E6" stroke-width="2" />
+  
+  <!-- Car silhouette -->
+  <rect x="180" y="350" width="80" height="60" fill="#ADB5BD" rx="10" />
+  
+  <!-- Calculate button -->
+  <rect x="350" y="520" width="200" height="40" fill="#3B5BAE" rx="6" />
+  <text x="450" y="545" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Calculate Delta-V</text>
+</svg> 

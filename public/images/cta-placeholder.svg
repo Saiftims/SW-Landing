@@ -1,0 +1,80 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background elements -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="300" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#172554" />
+      <stop offset="1" stop-color="#1e40af" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60a5fa" />
+      <stop offset="1" stop-color="#3b82f6" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Main background -->
+  <rect width="300" height="300" rx="150" fill="url(#bgGradient)" opacity="0.8" />
+  
+  <!-- Connection lines for AI network -->
+  <path d="M101 113L153 83M153 83L198 103M153 83L153 133M198 103L198 163M198 163L153 183M153 183L101 163M101 163L101 113M153 183L153 223" 
+        stroke="#60a5fa" stroke-width="1.5" stroke-opacity="0.4" />
+  
+  <!-- Glowing circle in the center -->
+  <circle cx="153" cy="83" r="20" fill="#3b82f6" opacity="0.8" filter="url(#glow)" />
+  <circle cx="198" cy="103" r="15" fill="#93c5fd" opacity="0.6" />
+  <circle cx="198" cy="163" r="15" fill="#60a5fa" opacity="0.7" />
+  <circle cx="153" cy="183" r="15" fill="#3b82f6" opacity="0.8" />
+  <circle cx="101" cy="163" r="15" fill="#93c5fd" opacity="0.6" />
+  <circle cx="101" cy="113" r="15" fill="#60a5fa" opacity="0.7" />
+  <circle cx="153" cy="133" r="12" fill="#93c5fd" opacity="0.5" />
+  <circle cx="153" cy="223" r="10" fill="#60a5fa" opacity="0.6" />
+  
+  <!-- Document with analysis -->
+  <g transform="translate(123, 55)">
+    <!-- Document -->
+    <rect x="0" y="0" width="60" height="75" rx="3" fill="white" opacity="0.9" />
+    
+    <!-- Document lines -->
+    <rect x="10" y="15" width="40" height="2" rx="1" fill="#3b82f6" opacity="0.7" />
+    <rect x="10" y="25" width="35" height="2" rx="1" fill="#3b82f6" opacity="0.5" />
+    <rect x="10" y="35" width="40" height="2" rx="1" fill="#3b82f6" opacity="0.7" />
+    <rect x="10" y="45" width="30" height="2" rx="1" fill="#3b82f6" opacity="0.5" />
+    <rect x="10" y="55" width="40" height="2" rx="1" fill="#3b82f6" opacity="0.7" />
+  </g>
+  
+  <!-- Car crash symbol -->
+  <g transform="translate(178, 143)">
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="white" opacity="0.9" />
+    <path d="M10 25L15 15H25L30 25M8 30H32M12 20H28" stroke="#1e40af" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <!-- Analytics graph -->
+  <g transform="translate(83, 143)">
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="white" opacity="0.9" />
+    <path d="M5 30L15 20L22 25L35 10" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" />
+    <circle cx="15" cy="20" r="2" fill="#3b82f6" />
+    <circle cx="22" cy="25" r="2" fill="#3b82f6" />
+    <circle cx="35" cy="10" r="2" fill="#3b82f6" />
+  </g>
+  
+  <!-- Scales of justice -->
+  <g transform="translate(133, 203)">
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="white" opacity="0.9" />
+    <path d="M20 10V15M12 15H28M15 25C15 27.5 17.5 30 20 30C22.5 30 25 27.5 25 25C25 22.5 22.5 20 20 20C17.5 20 15 22.5 15 25Z" 
+          stroke="#1e40af" stroke-width="2" stroke-linecap="round" />
+    <path d="M9 15C9 17.5 11.5 20 14 20C16.5 20 19 17.5 19 15C19 12.5 16.5 10 14 10C11.5 10 9 12.5 9 15Z" 
+          stroke="#1e40af" stroke-width="2" stroke-linecap="round" />
+    <path d="M21 15C21 17.5 23.5 20 26 20C28.5 20 31 17.5 31 15C31 12.5 28.5 10 26 10C23.5 10 21 12.5 21 15Z" 
+          stroke="#1e40af" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="37" cy="85" r="15" fill="#60a5fa" opacity="0.3" />
+  <circle cx="45" cy="220" r="18" fill="#3b82f6" opacity="0.2" />
+  <circle cx="250" cy="180" r="20" fill="#93c5fd" opacity="0.2" />
+  <circle cx="260" cy="70" r="15" fill="#60a5fa" opacity="0.3" />
+  
+</svg>

@@ -1,0 +1,10 @@
+<svg width="200" height="100" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path 
+    d="M0 70 C10 70, 15 72, 20 75 C30 82, 40 95, 55 95 C70 95, 80 60, 90 35 C100 10, 110 5, 120 5 C130 5, 140 20, 150 35 C160 50, 170 60, 180 62 C185 63, 190 61, 200 58" 
+    stroke="#FFFFFF" 
+    stroke-width="12" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"
+    fill="none"
+  />
+</svg>
